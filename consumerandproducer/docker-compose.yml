@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  rabbitmq:
+    image: library/rabbitmq:3.8.6
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
